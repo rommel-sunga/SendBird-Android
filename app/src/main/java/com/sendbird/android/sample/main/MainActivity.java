@@ -36,14 +36,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.linear_layout_open_channels).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, OpenChannelActivity.class);
-                startActivity(intent);
-            }
-        });
-
         findViewById(R.id.button_disconnect).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
